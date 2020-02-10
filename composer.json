@@ -1,6 +1,6 @@
 {
     "name": "greatsami/paytabs-laravel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "LGPL-3.0",
     "description": "Paytabs Laravel",
     "authors": [
@@ -14,17 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Greatsami\\Paytabs\\": "src/Paytabs/"
-        }
-    },
-    "extra":{
-        "laravel":{
-            "providers":[
-                "Greatsami\\Paytabs\\PaytabsServiceProvider"
-            ],
-            "aliases":{
-                "Paytabs": "Greatsami\\Paytabs\\Facades\\PaytabsFacade"
-            }
+            "Greatsami\\PayTabs\\":"src/"
         }
     },
     "minimum-stability": "dev"

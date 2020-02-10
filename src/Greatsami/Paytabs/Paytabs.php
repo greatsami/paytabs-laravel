@@ -1,6 +1,6 @@
 <?php 
 
-namespace Paytabs;
+namespace Greatsami\Paytabs;
 
 define("TESTING", "https://localhost:8888/paytabs/apiv2/index");
 define("AUTHENTICATION", "https://www.paytabs.com/apiv2/validate_secret_key");

@@ -1,4 +1,4 @@
-<?php namespace Paytabs\Facades;
+<?php namespace Greatsami\Paytabs\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

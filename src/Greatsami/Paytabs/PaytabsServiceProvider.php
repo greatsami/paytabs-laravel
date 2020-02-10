@@ -1,6 +1,6 @@
 <?php
 
-namespace Paytabs;
+namespace Greatsami\Paytabs;
 
 use Illuminate\Support\ServiceProvider;
 
