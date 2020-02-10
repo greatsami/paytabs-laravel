@@ -13,9 +13,6 @@
         "php": ">=7.2"
     },
     "autoload": {
-        "classmap": [
-            "src/commands"
-        ],
         "psr-4": {
             "Greatsami\\Paytabs\\": "src/Paytabs/"
         }
@@ -26,7 +23,7 @@
                 "Greatsami\\Paytabs\\PaytabsServiceProvider"
             ],
             "aliases":{
-                "Paytabs": "Greatsami\\Paytabs\\Paytabs"
+                "Paytabs": "Greatsami\\Paytabs\\Facades\\PaytabsFacade"
             }
         }
     },
