@@ -1,0 +1,34 @@
+{
+    "name": "greatsami/paytabs-laravel",
+    "version": "1.0.0",
+    "license": "LGPL-3.0",
+    "description": "Paytabs Laravel",
+    "authors": [
+        {
+            "name": "Sami Mansour",
+            "email": "samiman.net@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "Greatsami\\Paytabs\\": "src/Paytabs/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Greatsami\\Paytabs\\PaytabsServiceProvider"
+            ],
+            "aliases":{
+                "Paytabs": "Greatsami\\Paytabs\\Paytabs"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
